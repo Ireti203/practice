@@ -1,5 +1,5 @@
 # practice
-I am a budding sofware developer
+I am a budding software developer
 Dont be surprised if you dont see perfectly written codes at the start
 I am sure getting better
 And I hope to build great stuffs with codes soon

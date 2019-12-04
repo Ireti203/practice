@@ -1,0 +1,99 @@
+body{
+    background:whitesmoke;
+    height:780px;
+}
+header{
+    text-align:left;
+    font-size:25px;
+    font-display:white;
+}
+.description{
+    color:olivedrab;
+    font-size:25px;
+    text-align: left;
+}
+main{
+    background-image: url(image/fashion2.jpg);
+    height:1100px;
+    padding:16px 16px 0;
+    text-align:center;
+    color:olivedrab;
+}
+img{
+    height:300px;
+    width:300px
+}
+.flex-container {
+    display:flex;
+    width:100%;
+    height:300px;
+    background-color:olivedrab;
+    justify-content:center;
+    align-items:center;
+    font-family:none;
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+    align-content:center;
+}
+h3{
+    font-size:50px;
+    text-align:center;
+    color:white;
+}
+.head{
+    color:white;
+}
+.flex-item{
+    background-color:olivedrab;
+    width:240px;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    color:olivedrab;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    text-align: center;
+    border-right: 1px ridge rgba(43, 42, 46, 0.5);
+    font-size:25px ;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    padding:4px;
+    float: left;
+}
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    text-align:center;
+    float: left;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align:middle;
+}
+h1{
+    color:olivedrab;
+    text-align: center;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color:olivedrab;
+}
+.hey{
+    color:white;
+    text-align:left;
+    font-size: 20px;
+}
+footer{
+    background-color: olivedrab;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+blockquote{
+    font-size:25px;
+    text-align: justify;
+}

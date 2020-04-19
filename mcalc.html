@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="mcalc.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCalc</title>
+</head>
+
+<body class="other-page">
+    <header>
+        MCalc
+    </header>
+    <main>
+    </form>
+
+            <h1>
+                <p>
+                You can know the value of your money today
+            </h1>
+            <div class="inputbox">
+
+                <label for="present-value"> Total Sum of money invested:</label> <br>
+                <input type="number" name="present-value" placeholder = "Sum in naira" id="present-value">
+
+                <p>
+
+                    <label for="interest">Interest rate:</label> <br>
+                    <input type="number" name="interest" placeholder = "Interest in percentage" id="interest">
+
+
+                        <p>
+                            
+        
+
+                    <label for="years">Number of years:</label> <br>
+                    <input type="number" name="interest" placeholder = "Investment was for how many years?" id="years">
+
+                    <p>
+
+                            <label for="comp-period"> Compounding Period :</label> <br>
+
+                            <select type= "text" name = "period" id = "period">
+                                <option comp-period="1 year" value="1">Yearly</option>
+                                <option data-countryCode="US" value="1">Quaterly</option>
+                                <option data-countryCode="GB" value="44">Monthly</option>
+                                <option data-countryCode="GB" value="44">Daily</option> 
+                            </select>
+                            <p>
+                                <button onclick = "validate ()" id = "btn" type = submit>
+                                    Show my money value
+                                </button>
+        </div>
+        <script src = "mcalc.js"></script>
+
+
+</body>
+
+</html>
